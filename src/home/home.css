@@ -4,7 +4,7 @@
 }
 .homeNews {
     width: 90%;
-    height: 130vh;
+    height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -13,18 +13,26 @@
     padding-left: 10%;
     border-bottom-left-radius: 25%;
     margin-bottom: 5%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(20, 1, 1)), url('../images/hero1.jpg');
+    
+       
+}
+.bt{
+    background-color: black;
 }
 
 .homeNews>h1 {
     width: 30%;
-    font-size: 50px;
-    margin: 0;
+    font-size: 60px;
+    margin-top: 0px;
+    color: #ffffff;
 }
 
 .homeNews>p {
     width: 40%;
-    color: #4D5053;
+    color: #ffffff;
     font-family: 'Jost';
+    font-size: 20px;
 }
 
 .homeNews>a>button {
@@ -34,7 +42,7 @@
     border-radius: 10px;
     font-family: 'Jost';
     background-color: #292F36;
-    color: white;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,13 +201,14 @@
 }
 
 .home-brands>ul>ol>img {
-    width: 100%;
+    width: 150%;
 }
 /* PEOPLE THOUGHTS */
 .people-thoughts {
     width: 94%;
     padding: 5% 3% 7% 3%;
-    background-color: #F4F0EC;
+    /* background-color: #F4F0EC; */
+    background-color: #489f85;
     text-align: center;
     border-radius: 35px;
 }
@@ -207,6 +216,7 @@
 .people-thoughts>h1 {
     margin: 3% auto;
     width: 40%;
+    color: white;
 }
 
 .people {
@@ -360,13 +370,15 @@
     width: 70%;
     display: flex;
     justify-content: space-between;
-    background-color: #F4F0EC;
+    background-color: #489f85;
     padding: 5% 15%;
     margin: 5% auto 7% auto;
+
 }
 
 .home-experience>div {
     text-align: center;
+    color: white;
 }
 
 .home-experience>div>p:last-child {
@@ -377,7 +389,7 @@
     font-family: 'Dm Serif Display';
     font-size: 45px;
     margin: 0;
-    color: #CDA274;
+    color: #ffffff;
 }
 
 .h-s-project
@@ -500,7 +512,7 @@
     text-align: center;
     margin: 8% auto;
     padding: 3% 0;
-    background-color: #292F36;
+    background-color: #489f85;
     border-radius: 50px;
     color: white;
 }
@@ -512,16 +524,17 @@
 
 .h-interno>a {
     width: 24%;
+    
 }
 
 .h-interno>a>button {
-    color: white;
+    color: rgb(10, 0, 0);
     width: 100%;
     margin: 3% 0%;
     padding: 8% 0%;
     border-radius: 15px;
     border: none;
-    background-color: #CDA274;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -16,7 +16,7 @@ export function Team() {
     <div className="team">
       <div className="team-header">
         <h1>
-          Our Professional<p>Home / Team</p>
+          Our Professional<p>Designers</p>
         </h1>
       </div>
       <div className="team-members">

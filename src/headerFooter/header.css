@@ -2,11 +2,15 @@
     width: 100%;
     display: flex;
     align-items: center;
+    
 }
 
 a {
     text-decoration: none;
     color: black;
+    margin-right: 20px;
+    font-size: 20px;
+    
 }
 
 .header-logo-text{
@@ -36,6 +40,8 @@ a {
 .header-pages {
     width: 55%;
     display: flex;
+
+    margin-left: 350px;
 }
 
 .header-pages>ul{

@@ -1,6 +1,7 @@
 import "./home.css";
 import "./homeResponsive.css";
-import photoBg from "../images/backgroung/homeBg.jpg";
+// import photoBg from "../images/backgroung/homeBg.jpg";
+import hero1 from "../images/hero1.jpg"
 import { Link } from "react-router-dom";
 import { BsArrowRight, BsTelephone } from "react-icons/bs";
 import { AiOutlineArrowRight } from "react-icons/ai";
@@ -8,8 +9,11 @@ import { IoIosArrowForward } from "react-icons/io";
 import services from "../servicesPage/services.json";
 import thoughts from "./peopleThoughts.json";
 import CountUp from "react-countup";
-
+import teknopointDept_Logo from "../images/TeknopointDEPT_Logo.jpg"
 import home1 from "../images/home/home1.jpg";
+import devfolio from "../images/devfolio.png"
+import replitlogo from "../images/replitlogo.png"
+import Polygon_logo from "../images/Polygon_logo.png"
 import hPoject1 from "../images/home/hProject1.jpg";
 import hhProject2 from "../images/home/hProject2.jpg";
 import hhProject3 from "../images/home/hProject3.jpg";
@@ -40,14 +44,14 @@ export function Home() {
   };
   return (
     <div className="home">
-      <div className="homeNews" style={{ backgroundImage: `url(${photoBg})` }}>
+      <div className="homeNews" style={{ backgroundImage: `url(${hero1})` }}>
         <h1>Let Your Home Be Unique</h1>
         <p>
           There are many variations of the passages of lorem Ipsum
           fromavailable,variations of the passages.
         </p>
         <Link to="">
-          <button>
+          <button className="bt">
             Get Started
             <BsArrowRight style={{ marginLeft: "2%", color: "#CDA274" }} />
           </button>
@@ -74,7 +78,7 @@ export function Home() {
               );
             })}
         </div>
-        <div className="homeAboutUs">
+        {/* <div className="homeAboutUs">
             <div className="hp-subtext">
               <h1>We Create The Art Of Stylish Living Stylishly</h1>
               <p>
@@ -108,7 +112,7 @@ export function Home() {
             <div className="hp-img">
               <img src={home1} alt="concept"></img>
             </div>
-        </div>
+        </div> */}
         {/* <div className="callUs">
           <div className="phoneNum">
             <p className="h-icon">
@@ -156,27 +160,26 @@ export function Home() {
         <div className="home-brands">
           <ul>
             <ol>
-              <img src={brand1} alt="brand"></img>
+              <img className="tekno" src={teknopointDept_Logo} alt="brand"></img>
             </ol>
             <ol>
-              <img src={brand2} alt="brand"></img>
+              <img src={replitlogo} alt="brand"></img>
             </ol>
             <ol>
-              <img src={brand3} alt="brand"></img>
+              <img src={Polygon_logo} alt="brand"></img>
             </ol>
-            <ol>
+            {/* <ol>
               <img src={brand4} alt="brand"></img>
-            </ol>
+            </ol> */}
             <ol>
-              <img src={brand5} alt="brand"></img>
+              <img src={devfolio} alt="brand"></img>
             </ol>
           </ul>
         </div>
         <div className="homeProjects">
-          <h1>Follow Our Projects</h1>
+          <h1>View Exclusive Designs.</h1>
           <p>
-            It is a long established fact that a reader will be distracted by
-            the of readable content of a page lookings at its layouts.
+            Our designers brought together some of the most unique and exclusive design layouts for you.
           </p>
           <div className="hp-list">
             <div className="hp-project">
@@ -204,7 +207,7 @@ export function Home() {
               </div>
               <div className="hp-pro-detail">
                 <div className="hp-pro-info">
-                  <p className="hp-prj-title">Modern Kitchen</p>
+                  <p className="hp-prj-title">Kid's Fantasy Bedroom</p>
                   <p className="hp-prj-path">Decor / Architecture</p>
                 </div>
                 <div className="hp-pro-btn">
@@ -223,7 +226,7 @@ export function Home() {
               </div>
               <div className="hp-pro-detail">
                 <div className="hp-pro-info">
-                  <p className="hp-prj-title">Modern Kitchen</p>
+                  <p className="hp-prj-title">Comfy Living Room</p>
                   <p className="hp-prj-path">Decor / Architecture</p>
                 </div>
                 <div className="hp-pro-btn">
@@ -242,7 +245,7 @@ export function Home() {
               </div>
               <div className="hp-pro-detail">
                 <div className="hp-pro-info">
-                  <p className="hp-prj-title">Modern Kitchen</p>
+                  <p className="hp-prj-title">Classy Bathroom</p>
                   <p className="hp-prj-path">Decor / Architecture</p>
                 </div>
                 <div className="hp-pro-btn">
@@ -275,7 +278,7 @@ export function Home() {
           <p>Happy Customers</p>
         </div>
       </div>
-      <div className="articleNews">
+      {/* <div className="articleNews">
         <h1>Articles & News</h1>
         <p>
           It is a long established fact that a reader will be distracted by the
@@ -331,10 +334,10 @@ export function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="h-interno">
-        <h1>Wanna join the interno?</h1>
-        <p>It is a long established fact will be distracted.</p>
+        <h1>Want to join Homify?</h1>
+        <p>Reach out to us for any queries.</p>
         <Link to={`/contact`}>
           <button>
             Contact With Us

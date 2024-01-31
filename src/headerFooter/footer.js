@@ -19,7 +19,7 @@ export function Footer() {
                 <img src={logo} alt="logo"></img>
               </div>
               <div className="f-text">
-                <p>Interno</p>
+                <p>Homify</p>
               </div>
             </Link>
           </div>
@@ -96,7 +96,7 @@ export function Footer() {
         </section>
         <section className="f-contact">
           <p>Contact</p>
-          <p>55 East Birchwood Ave. Brooklyn, New York 11201</p>
+          <p>Mumbai, Bandra West.</p>
           <p>
             <a href="mailto: contact@interno.com">contact@interno.com</a>
           </p>
