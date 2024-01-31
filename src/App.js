@@ -21,6 +21,8 @@ import { Cookies } from './Allterms/cookies';
 import { Privacy } from './Allterms/privacy';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import { SmoothScroll } from './smooth';
+import { Products } from './products/Product';
+
 
 function App() {
 
@@ -29,6 +31,7 @@ function App() {
     <SmoothScroll />
       <Header />
       <Routes>
+        <Route path='/products' element={<Products/>}></Route>
         <Route path='/contact' element={<Contact/>}></Route>
         <Route path='/restricted-page' element={<RestrictedPage/>}></Route>
         <Route path='/pricing' element={<PricingPlan/>}></Route>

@@ -1,0 +1,37 @@
+
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "RENEWITURE Sheesham Wood 5 Seater Sofa Set for Living Room | 5 Seater Sofa Set | Wooden Sofa Set | (3+1+1, Natural Teak Finish)",
+        "image": "https://m.media-amazon.com/images/I/51lMYExDsxL.jpg",
+        "amazonLink": "https://www.amazon.in/RENEWITURE-Sheesham-Seater-Living-Natural/dp/B0CK8FQ17J/ref=sr_1_3_sspa?adgrpid=67383982468&ext_vrnc=hi&gclid=CjwKCAiA_OetBhAtEiwAPTeQZybfEKY8Lag_6NfUROD_W73JketqswejKrfs8k4zOfynL7-PDsumMRoCEcAQAvD_BwE&hvadid=617779675640&hvdev=c&hvlocphy=1007785&hvnetw=g&hvqmt=e&hvrand=16526305067842566702&hvtargid=kwd-310529101148&hydadcr=5845_2362038&keywords=furniture%2Bamazon&qid=1706717770&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+      },
+      {
+        "id": 2,
+        "name": "Wooden Dining Room Sets with 4 Chairs & Cushion Seat - (Warm Chestnut Finish)",
+        "image": "https://m.media-amazon.com/images/I/71DvmF5+xRL._SX679_.jpg",
+        "amazonLink": "https://www.amazon.in/Porash-Furniture-Sheesham-Wooden-Chestnut/dp/B08L855DMG/ref=sr_1_21_sspa?crid=1IKSFDQFFOYGU&keywords=furniture%2Bamazon+dining+table&qid=1706719141&sprefix=furniture%2Bamazon+dining+tabl%2Caps%2C233&sr=8-21-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1"
+      },
+      {
+        "id": 3,
+        "name": "HomeCloud Kitchen mat 6mm Fruit Printed Thick Anti Slip, Washable, Big Size, Printed, Designer Folding Kitchen Mat for Floor Home Bedroom Standard Size ",
+        "image": "https://m.media-amazon.com/images/I/616xPVyp25L._SX679_.jpg",
+        "amazonLink": "https://www.amazon.in/dp/B08LVGQTT1/ref=sspa_dk_detail_4?pd_rd_i=B08LVGQTT1&pd_rd_w=k1JQp&content-id=amzn1.sym.dcd65529-2e56-4c74-bf19-15db07b4a1fc&pf_rd_p=dcd65529-2e56-4c74-bf19-15db07b4a1fc&pf_rd_r=HK0GQ8C6YG4PSYQZP13J&pd_rd_wg=HXT8y&pd_rd_r=4576bcb0-cf06-4e8b-9a88-6c7c43b9d2b4&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&th=1"
+      },
+      {
+        "id": 4,
+        "name": "Product 4",
+        "image": "amazon-image-link-4",
+        "amazonLink": "https://www.amazon.com/product-4"
+      },
+      {
+        "id": 5,
+        "name": "Product 5",
+        "image": "amazon-image-link-5",
+        "amazonLink": "https://www.amazon.com/product-5"
+      }
+      
+    ]
+  }
+  

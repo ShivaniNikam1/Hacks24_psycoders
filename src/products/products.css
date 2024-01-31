@@ -1,0 +1,68 @@
+/* products.css */
+
+.products {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .products-header h1 {
+    font-size: 24px;
+  }
+  
+  .products-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .product {
+    width: calc(33.33% - 20px);
+    flex: 1 0 30%;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .product:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 60%; /* Adjust the height based on your design preference */
+    overflow: hidden;
+  }
+  
+  .product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .product-info {
+    padding: 10px;
+    height: 40%; /* Adjust the height based on your design preference */
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .product-name {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .amazon-link {
+    display: flex;
+    align-items: center;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .amazon-link svg {
+    margin-right: 8px;
+  }
+  
