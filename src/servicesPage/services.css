@@ -85,13 +85,13 @@
 
 /* HOW WE WORK */
 .howWeWork {
-    color: #292f36;
+    color: #ffffff;
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 3% auto;
-    background-color: #F4F0EC;
+    background-color: #337460;
     border-radius: 30px;
     padding: 7% 5%;
 }
@@ -101,6 +101,7 @@
     flex-direction: row;
     width: 100%;
     margin: 7% 0% 3% 0%;
+    background-color: #337460;
 }
 
 .hc-img {
@@ -123,11 +124,12 @@
 
 .how-title>h1 {
     margin: 0;
+    color: #ffffff;
 }
 
 .how-title>p {
     font-family: 'Jost';
-    color: #4d5053;
+    color: #ffffff;
 }
 
 .hc-text {
@@ -154,7 +156,7 @@
 }
 
 .hc-subtext>p {
-    color: #4d5053;
+    color: #ffffff;
     font-size: 14px;
 }
 
@@ -167,7 +169,7 @@
     text-align: center;
     margin: 10% auto;
     padding: 3% 0;
-    background-color: #292F36;
+    background-color: #000705;
     border-radius: 50px;
     color: white;
 }
@@ -183,7 +185,7 @@
 }
 
 .interno>a>button {
-    color: white;
+    color: rgb(0, 0, 0);
     width: 100%;
     padding: 8% 0%;
     border-radius: 15px;

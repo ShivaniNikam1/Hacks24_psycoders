@@ -18,7 +18,7 @@
        
 }
 .bt{
-    background-color: black;
+    color: black;
 }
 
 .homeNews>h1 {
@@ -177,7 +177,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #292F36;
+    background-color: #090b0c;
     color: white;
     cursor: pointer;
 }

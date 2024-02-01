@@ -24,10 +24,7 @@ export function Footer() {
             </Link>
           </div>
           <div className="f-about-text">
-            <p>
-              It is a long established fact that a reader will be distracted
-              lookings.
-            </p>
+            <p>Designing Dreams, Creating Realities</p>
           </div>
           <div className="f-smedia">
             <ul>

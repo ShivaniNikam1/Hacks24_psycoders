@@ -84,8 +84,8 @@ export function Services() {
                     <p>01</p>
                 </div>
                 <div className="hc-subtext">
-                    <h2>Concept & Details</h2>
-                    <p>It is a long established fact  will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry. </p>
+                    <h2>Create a Design Plan.</h2>
+                    <p>The user specifies the type of space they want to design, preferred styles, color preferences, and any specific requirements. </p>
                 </div>
             </div>
         </div>
@@ -97,8 +97,8 @@ export function Services() {
                     <p>02</p>
                 </div>
                 <div className="hc-subtext">
-                    <h2>Idea for work</h2>
-                    <p>It is a long established fact  will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry. </p>
+                    <h2>Connect with Designers</h2>
+                    <p>Users connect with experienced interior designers registered on our platform. They can explore designer profiles, view portfolios, and choose a designer.</p>
                 </div>
             </div>
             <div className="hc-img">
@@ -116,8 +116,8 @@ export function Services() {
                     <p>03</p>
                 </div>
                 <div className="hc-subtext">
-                    <h2>Design</h2>
-                    <p>It is a long established fact  will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry. </p>
+                    <h2>Collaborate and Visualize</h2>
+                    <p>Designers and clients communicate through the platform, sharing ideas and discussing design concepts.</p>
                 </div>
             </div>
         </div>
@@ -129,8 +129,8 @@ export function Services() {
                     <p>04</p>
                 </div>
                 <div className="hc-subtext">
-                    <h2>Perfection</h2>
-                    <p>It is a long established fact  will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry. </p>
+                    <h2>Project Execution</h2>
+                    <p>Users can track the progress of their project and communicate with the designer throughout the implementation phase.</p>
                 </div>
             </div>
             <div className="hc-img">

@@ -2,7 +2,10 @@
     width: 100%;
     display: flex;
     align-items: center;
-    
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000; /* Ensure it stays on top of other elements */
 }
 
 a {
@@ -10,10 +13,9 @@ a {
     color: black;
     margin-right: 20px;
     font-size: 20px;
-    
 }
 
-.header-logo-text{
+.header-logo-text {
     font-family: 'DM Serif Display';
     font-size: 22px;
     width: 30%;
@@ -23,7 +25,7 @@ a {
     margin-left: 13%;
 }
 
-.header-text{
+.header-text {
     width: 80%;
 }
 
@@ -33,18 +35,18 @@ a {
     align-items: center;
 }
 
-.header-logo>img{
+.header-logo > img {
     width: 100%;
 }
 
 .header-pages {
     width: 55%;
     display: flex;
-
     margin-left: 350px;
+  
 }
 
-.header-pages>ul{
+.header-pages > ul {
     list-style-type: none;
     font-family: Jost;
     font-weight: 400;
@@ -52,6 +54,6 @@ a {
     flex-direction: row;
 }
 
-.header-pages>ul>li{
+.header-pages > ul > li {
     margin-right: 6%;
 }

@@ -45,10 +45,9 @@ export function Home() {
   return (
     <div className="home">
       <div className="homeNews" style={{ backgroundImage: `url(${hero1})` }}>
-        <h1>Let Your Home Be Unique</h1>
+        <h1>Designs Beyond Walls.</h1>
         <p>
-          There are many variations of the passages of lorem Ipsum
-          fromavailable,variations of the passages.
+        Crafting Comfort, Building Beauty – Because Your Space Deserves the Extraordinary.
         </p>
         <Link to="">
           <button className="bt">
